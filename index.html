@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee9dc">
+  <meta name="description" content="A personal friendship archive. Volume 01, 2026.">
+  <title>Personal Record / Vol. 01</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="surprise-screen" id="surpriseScreen" role="dialog" aria-modal="true" aria-labelledby="surpriseTitle">
+    <div class="surprise-card"><p class="eyebrow mono">A SMALL THING FROM ANUSKHA</p><span class="surprise-clover">☘</span><h2 id="surpriseTitle">do you want a surprise<br>from Anuskha?</h2><p>something small, made just for you.</p><div class="surprise-actions"><button class="button button-dark" id="surpriseYes">YES, SHOW ME ♡</button><button class="button button-light" id="surpriseNo">NO</button></div><p class="surprise-foot mono">(the answer is secretly yes.)</p></div>
+  </div>
+  <div class="film-grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#top" aria-label="Back to beginning"><span class="clover">✿</span> PERSONAL RECORD <span class="slash">/</span> VOL. 01</a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">INDEX <span>＋</span></button>
+    <nav id="siteNav" class="site-nav" aria-label="Main navigation">
+      <a href="#year">01 / YEAR</a><a href="#lore">02 / LORE</a><a href="#soundtrack">03 / SOUND</a><a href="#fieldnotes">04 / NOTES</a><a href="#isc">05 / ISC</a><a href="#newyork">06 / NYC</a>
+      <button class="nav-edit" id="openEditor">EDIT ARCHIVE ↗</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-meta mono"><span>PERSONAL RECORD / VOL. 01 / 2026</span><span id="counter">FRAME 001 / 000</span></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AN UNOFFICIAL FRIENDSHIP DOCUMENT</p>
+          <h1 id="heroTitle">a collection of evidence that this year <em>actually happened.</em></h1>
+          <p class="hero-subtitle" id="heroSubtitle">Featuring two people, questionable plans, excellent memories, and one unnecessarily complicated friendship archive.</p>
+          <div class="hero-bottom">
+            <button class="button button-dark" id="openArchive">OPEN THE ARCHIVE <span>↘</span></button>
+            <button class="button button-light play-me-button" id="playMeButton" type="button" aria-label="Play Heart to Heart by Mac DeMarco">PLAY ME ♫</button>
+            <p class="handwritten" id="heroAnnotation">made with an unreasonable amount of effort. obviously.</p>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative scrapbook cover">
+          <div class="viewfinder"><span></span><i></i></div>
+          <div class="paper paper-back"></div>
+          <div class="paper paper-front">
+            <div class="paper-top mono">CONTACT SHEET / 2026</div>
+            <div class="photo-placeholder hero-photo" role="img" aria-label="Placeholder for your favourite photograph">
+              <div class="placeholder-sky"></div><div class="placeholder-horizon"></div><div class="placeholder-sun"></div>
+              <span>YOUR PHOTO GOES HERE</span>
+            </div>
+            <div class="paper-caption"><span id="hisName">[HIS NAME]</span><span class="mono">FIG. 01</span></div>
+            <div class="paper-note handwritten">proof of life, basically.</div>
+          </div>
+          <span class="stamp mono">ARCHIVE<br>NO. 001</span>
+          <span class="tiny-star">✳</span>
+        </div>
+      </div>
+      <div class="hero-footer mono"><span>FILED UNDER: FRIENDSHIP / SCHOOL / OTHER NONSENSE</span><span>SCROLL TO CONTINUE ↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Archive index"><div>PHOTOGRAPHS &nbsp; ✳ &nbsp; FIELD NOTES &nbsp; ✳ &nbsp; SONGS THAT STUCK &nbsp; ✳ &nbsp; FUTURE PLANS &nbsp; ✳ &nbsp; PHOTOGRAPHS &nbsp; ✳ &nbsp; FIELD NOTES &nbsp; ✳ &nbsp; SONGS THAT STUCK &nbsp; ✳ &nbsp;</div></section>
+
+    <section id="year" class="section-wrap section-block">
+      <div class="section-heading"><div><p class="eyebrow mono">01 — CHRONOLOGY</p><h2>apparently, we did <em>things</em> this year.</h2></div><p class="section-intro">A very unofficial record of events, questionable decisions, and moments worth keeping.</p></div>
+      <div class="chapter-grid">
+        <article class="chapter-card featured" id="teachersCard">
+          <div class="chapter-index mono">CASE FILE 001 / EVENT PLANNING</div>
+          <div class="chapter-visual visual-blue"><span class="scribble">operation:<br>make this<br>work somehow.</span><div class="visual-stamp">T-DAY<br>FILES</div><span class="visual-bottom mono">PLANNING DEPT. / OPEN CASE</span></div>
+          <div class="chapter-body"><p class="eyebrow">THE MASTERPLAN</p><h3>Teachers’ Day, in theory.</h3><p>Planning department was operating on optimism. The actual evidence is probably funnier.</p><button class="text-link" data-open-story="teachers">OPEN CASE FILE ↗</button></div>
+        </article>
+        <article class="chapter-card" id="birthdayCard">
+          <div class="chapter-index mono">CASE FILE 002 / BIRTHDAY</div>
+          <div class="chapter-visual visual-red"><div class="birthday-number">+1</div><span class="birthday-caption handwritten">limited-edition human</span><span class="visual-bottom mono">CLASSIFIED FOR DIGNITY</span></div>
+          <div class="chapter-body"><p class="eyebrow">ANNUAL OBSERVATION</p><h3>Birthday archive.</h3><p>Another year older. Scientific progress remains inconclusive.</p><button class="text-link" data-open-story="birthday">OPEN CASE FILE ↗</button></div>
+        </article>
+      </div>
+      <div class="gallery-heading" id="lore"><div><p class="eyebrow mono">THE LORE ARCHIVE</p><h3>random moments, suspiciously well documented.</h3></div><p class="mono small-note">CLICK A FRAME TO READ THE LORE ↗</p></div>
+      <div class="contact-sheet" id="memoryGallery" aria-live="polite"></div>
+      <div class="small-things"><div class="margin-label mono">MARGIN NOTES / 04</div><div><p class="eyebrow">THE SMALL THINGS</p><h3>not every memory needs an event title.</h3><p id="smallThingsText">Conversations, school-day moments, plans that never happened, and the small ways people show they care. Add your own notes in the editor.</p></div><button class="outline-button" id="addMemoryButton">＋ ADD A MEMORY</button></div>
+    </section>
+
+    <section id="soundtrack" class="section-block sound-section">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow mono">02 — THE SOUNDTRACK</p><h2>songs attached to <em>evidence.</em></h2></div><p class="section-intro">A soundtrack for things we remember, things we forgot to photograph, and things that need a better background score.</p></div>
+        <div class="music-layout">
+          <div class="cassette-shell">
+            <div class="cassette-label"><div class="cassette-top mono"><span>FRIENDSHIP MIXTAPE</span><span id="trackNumber">A / 01</span></div><div class="cassette-title" id="trackTitle">Heart to Heart</div><div class="cassette-artist" id="trackArtist">Mac DeMarco · add your audio file</div><div class="cassette-reels" id="reels"><span class="reel"><i></i></span><span class="tape-window"></span><span class="reel"><i></i></span></div><div class="cassette-bottom mono"><span>DO NOT RECORD OVER</span><span>90 MIN / SIDE A</span></div></div>
+            <div class="music-controls"><button id="prevTrack" aria-label="Previous track">↶</button><button id="playTrack" class="play-button" aria-label="Play">▶</button><button id="nextTrack" aria-label="Next track">↷</button><div class="progress-wrap"><span class="mono" id="elapsed">00:00</span><input id="progress" type="range" min="0" max="100" value="0" aria-label="Track progress"><span class="mono" id="duration">--:--</span></div></div>
+            <div class="volume-row"><button id="muteButton" class="mini-button">SOUND ON</button><input id="volume" type="range" min="0" max="1" step=".05" value=".7" aria-label="Volume"><button id="playlistToggle" class="mini-button">PLAYLIST ＋</button></div>
+            <p class="audio-note" id="audioNote">Add your own audio file in EDIT ARCHIVE → SOUNDTRACK, then press play to listen here.</p>
+            <audio id="audioElement" preload="none"></audio>
+            <div class="playlist" id="playlist" hidden></div>
+          </div>
+          <div class="sound-notes"><div class="tape-label mono">SIDE A / NOTES ON REPEAT</div><h3>the soundtrack of our year.</h3><p>Some songs become timestamps. This is where each track can lead back to the photograph, memory, or plan that made it stick.</p><div class="track-memory" id="trackMemory"><span class="mono">CONNECTED MEMORY / 001</span><p>Pick a track to see the memory connected to it.</p></div><button class="text-link" id="enterPlayMusic">ENTER & PLAY MUSIC ↗</button><p class="tiny-muted">Audio only plays when you press play. Add your own audio files to play songs directly inside this page.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="jokes" class="section-wrap section-block">
+      <div class="section-heading"><div><p class="eyebrow mono">03 — LABORATORY HUMOUR</p><h2>pick-up lines that should get us both <em>expelled.</em></h2></div><p class="section-intro">The scientific method was not consulted during the writing of these.</p></div>
+      <div class="lab-layout"><div class="lab-stamp mono">DEPARTMENT OF<br>QUESTIONABLE PHYSICS<br><span>EST. PROBABLY NEVER</span></div><div class="joke-card"><div class="joke-top mono"><span id="jokeCount">LAB NOTE 001</span><span>NOT PEER REVIEWED</span></div><p id="jokeText">Are you gravity? Because somehow every plan we make eventually falls apart.</p><div class="joke-rating"><span>PEER-REVIEWED: ABSOLUTELY NOT</span><span>SCIENTIFIC ACCURACY: QUESTIONABLE</span><span>CHANCE OF PUBLIC USE: ZERO</span></div><button id="nextJoke" class="button button-dark">GENERATE ANOTHER TERRIBLE LINE ↗</button></div></div>
+      <p class="handwritten lab-footnote">all results are preliminary. further research is discouraged.</p>
+    </section>
+
+    <section id="fieldnotes" class="section-wrap section-block field-section">
+      <div class="section-heading"><div><p class="eyebrow mono">04 — FIELD NOTES</p><h2>observations on a <em>rather specific human.</em></h2></div><p class="section-intro">A very scientific attempt to document one particular person. Research remains ongoing.</p></div>
+      <div class="specimen-sheet"><div class="specimen-top mono"><span>SPECIMEN REPORT / 001</span><span>STATUS: ONGOING</span></div><div class="specimen-main"><div class="specimen-photo"><div class="placeholder-sky"></div><div class="placeholder-horizon"></div><span>INSERT SPECIMEN PHOTO</span><span class="crosshair">＋</span></div><div class="specimen-info"><p class="eyebrow mono">SPECIMEN</p><h3 id="specimenName">[HIS NAME]</h3><p class="specimen-description">Known characteristics: thoughtful, occasionally chaotic, suspiciously interested in photography, and capable of turning a simple plan into a whole project.</p><div class="observation-list" id="observationList"></div></div></div><div class="specimen-bottom handwritten">things that make you distinctly you. recorded with fondness, not peer review.</div></div>
+    </section>
+
+    <section id="letter" class="letter-section section-block">
+      <div class="section-wrap letter-wrap"><div class="letter-aside"><p class="eyebrow mono">PERSONAL NOTE / NOT FOR PEER REVIEW</p><span class="large-asterisk">✳</span><p class="handwritten">file under:<br>things i’m genuinely<br>glad happened.</p><div class="letter-photo-placeholder" id="yearPhotoFrame"><span>A PHOTO THAT FEELS LIKE THIS YEAR</span></div></div><article class="letter-paper"><div class="letter-paper-top mono"><span>ONE THING BEFORE THE YEAR ENDS</span><span>2026 / PRIVATE-ish</span></div><h2 id="letterTitle">one thing before the year ends.</h2><div id="letterBody" class="letter-body"></div><p class="letter-signoff handwritten" id="letterClosing">really glad i got to know you this year.</p><button class="text-link" id="editLetterShortcut">EDIT THIS LETTER ↗</button></article></div>
+    </section>
+
+    <section id="isc" class="section-wrap section-block isc-section">
+      <div class="section-heading"><div><p class="eyebrow mono">05 — THE GREAT EXPERIMENT</p><h2>the great ISC <em>survival experiment.</em></h2></div><p class="section-intro">Two students. Several subjects. A truly unreasonable amount of syllabus.</p></div>
+      <div class="exam-grid"><div class="exam-report"><div class="report-top mono"><span>EXPERIMENT 12-B</span><span>STATUS: IN PROGRESS</span></div><h3>Hypothesis</h3><p>With enough revision, snacks, sleep, and selective panic, both candidates may successfully navigate the syllabus.</p><div class="countdown-box"><span class="mono">TIME UNTIL EXAM DATE</span><strong id="countdown">SET A DATE</strong><label for="examDate">Exam date</label><input type="date" id="examDate"><p class="tiny-muted">The date is editable. No exam date is assumed.</p></div><div class="progress-label"><span>REVISION PROGRESS</span><span id="progressPercent">0%</span></div><div class="progress-bar"><span id="revisionBar"></span></div><button class="outline-button" id="motivationButton">I AM GOING TO PASS THIS EXAM ↗</button><p id="motivationMessage" class="motivation-message" hidden></p></div><div class="checklist-paper"><div class="report-top mono"><span>PRE-EXAM CHECKLIST</span><span id="checkCount">0 / 0</span></div><h3>collect the marks.</h3><div id="revisionChecklist" class="checklist"></div><button class="text-link" id="addChecklistItem">＋ ADD CHECKLIST ITEM</button><div class="exam-day"><p class="eyebrow mono">ON THE DAY</p><div id="examDayList"></div></div></div></div>
+      <div class="hidden-message" id="hiddenMotivation"><button id="revealMotivation" class="tiny-star-button" aria-label="Reveal hidden message">✳</button><span>there is a note tucked into the margin.</span></div>
+    </section>
+
+    <section id="newyork" class="section-block nyc-section">
+      <div class="section-wrap"><div class="section-heading"><div><p class="eyebrow mono">06 — FUTURE PLANS / NOT A BOOKING</p><h2>new york, if we ever get our <em>lives together.</em></h2></div><p class="section-intro">An extremely unofficial itinerary for two people who have discussed this trip enough times to deserve a planning document.</p></div>
+        <div class="nyc-topline"><span class="handwritten">status: currently funded by optimism.</span><span class="mono">FIELD GUIDE / NYC / FUTURE</span></div>
+        <div class="nyc-layout"><div class="map-board" id="mapBoard" aria-label="Stylised clickable New York destination map"><div class="map-water"></div><div class="map-grid-lines"></div><div class="map-label manhattan-label">MANHATTAN</div><div class="map-label brooklyn-label">BROOKLYN</div><div class="map-landmark landmark-park">✳ <span>CENTRAL PARK</span></div><div class="map-landmark landmark-bridge">⌁ <span>BROOKLYN BRIDGE</span></div><div class="map-route-label mono">OUR VERY UNOFFICIAL ROUTE ↗</div><svg class="map-river" viewBox="0 0 600 500" aria-hidden="true"><path d="M330 -20 C270 60 390 130 315 210 S270 350 340 520" fill="none" stroke="#d8d2c5" stroke-width="42"/><path d="M330 -20 C270 60 390 130 315 210 S270 350 340 520" fill="none" stroke="#a7b8b5" stroke-width="2" stroke-dasharray="5 5"/></svg><div id="mapPins"></div><span class="map-scale mono">NOT TO SCALE / VERY MUCH A MOOD</span></div><div class="destination-list"><div class="destination-list-top"><h3>places to get lost on purpose.</h3><span class="mono" id="destinationCount">00 PLACES</span></div><div id="destinations"></div></div></div>
+        <div class="bucket-list"><div><p class="eyebrow mono">THE LONG GAME</p><h3>things we are, allegedly, going to do.</h3></div><div id="bucketItems" class="bucket-items"></div></div>
+      </div>
+    </section>
+
+    <section id="volumeTwo" class="section-wrap section-block volume-two"><div class="volume-two-art"><span class="mono">VOL. 02 / NOT YET FILED</span><div class="big-02">02</div><span class="handwritten">leave a little room<br>for what happens next.</span></div><div class="volume-two-copy"><p class="eyebrow mono">THE FUTURE FOLDER</p><h2>volume two is <em>still unwritten.</em></h2><p>For the next photograph, the plan that finally works, the place we have not been yet, and the memory we cannot predict from here.</p><div id="futurePlans"></div><button class="outline-button" id="addFuturePlan">＋ ADD A FUTURE PLAN</button></div></section>
+
+    <section class="final-page section-block" id="end"><div class="final-inner"><p class="eyebrow mono">END OF FILE / 001</p><div class="final-symbol">✳</div><h2>end of <em>volume one.</em></h2><p class="final-line">not the end of the story. just the end of this particular folder.</p><div class="final-photo" id="finalPhoto"><span class="mono">FINAL FRAME / YOUR PHOTO HERE</span></div><p id="finalMessage" class="final-message">Thank you for being part of this year. Good luck with ISC, take more photographs, keep making things, and please remember that New York is still on the agenda.</p><button class="button button-light" id="backToTop">BACK TO THE BEGINNING ↑</button><p class="footer-label mono" id="footerText">ARCHIVE NO. 001 · MADE WITH THOUGHT & QUESTIONABLE PLANNING · 2026</p></div></section>
+  </main>
+
+  <div class="story-modal" id="storyModal" role="dialog" aria-modal="true" aria-labelledby="storyTitle" hidden><div class="modal-backdrop" data-close-modal></div><article class="modal-paper"><button class="modal-close" data-close-modal aria-label="Close story">×</button><p class="eyebrow mono" id="storyEyebrow">CASE FILE</p><h2 id="storyTitle">A memory</h2><div id="storyContent"></div><div id="storyRelated"></div><button class="outline-button" data-close-modal>CLOSE FILE ×</button></article></div>
+
+  <aside class="editor-drawer" id="editorDrawer" aria-label="Archive editing dashboard" hidden>
+    <div class="editor-header"><div><p class="eyebrow mono">PRIVATE WORKBENCH</p><h2>edit the archive.</h2></div><button id="closeEditor" class="modal-close" aria-label="Close editor">×</button></div>
+    <p class="editor-intro">Edits save in this browser. Export a backup to move them to another device, or edit <code>content.js</code> for the default published version.</p>
+    <div class="editor-tabs" role="tablist"><button class="editor-tab active" data-tab="text">TEXT & DETAILS</button><button class="editor-tab" data-tab="memories">MEMORIES</button><button class="editor-tab" data-tab="soundtrack">SOUNDTRACK</button><button class="editor-tab" data-tab="photos">PHOTOS</button><button class="editor-tab" data-tab="data">BACKUP</button></div>
+    <div id="editorPane" class="editor-pane"></div>
+    <div class="editor-footer"><button id="saveEdits" class="button button-dark">SAVE CHANGES</button><button id="resetEdits" class="outline-button">RESET LOCAL EDITS</button></div>
+    <p class="tiny-muted">This is a local editing workbench, not a secure online CMS. It does not publish changes to a hosted site by itself.</p>
+  </aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
